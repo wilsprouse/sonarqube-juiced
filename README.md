@@ -6,6 +6,7 @@ This project gives developers a "Juiced" start to development, if they are stand
 
 ### Instructions
 
-1. Get your pem keys
+1. Download your AWS CLI keys
 2. cd into src/ directory
-3. run terraform apply
+3. run `$ terraform plan`
+4. run `$ terraform apply`
