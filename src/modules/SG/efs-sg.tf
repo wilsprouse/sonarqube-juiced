@@ -1,4 +1,4 @@
-resource "aws_default_security_group" "efs_security_group" {
+resource "aws_security_group" "efs_security_group" {
   vpc_id =  var.vpc_id
 
   ingress {
