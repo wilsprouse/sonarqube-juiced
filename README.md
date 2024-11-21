@@ -1,7 +1,7 @@
 # SonarQube - Juiced
 This repository contains all the necessary Terraform code to stand up a SonarQube Environment in AWS, using ECS Fargate
 
-### Juiced?
+#### Juiced?
 This project gives developers a "Juiced" start to development. So, if you are standing up SonarQube in AWS, everything you need is here!
 
 ### Instructions
@@ -34,4 +34,4 @@ you need to write code again, just run `$ terraform apply`!
 
 ### Contributions
 Feel free to clone or fork the repository and contribute.
-<br>Or contact Wil Sprouse (wilsprouse@gmail.com)
+<br>Or contact Wil Sprouse (wilsprouse@gmail.com) for any inquiries
