@@ -17,6 +17,6 @@ This project gives developers a "Juiced" start to development, if they are stand
 2. Depending on how you want to store your state, you may need to update `src/backend.tf`. 
    By default, it is set up for local state storage.
 3. cd into src/ directory
-4. run `$ terraform init
+4. run `$ terraform init`
 5. run `$ terraform plan`
 6. run `$ terraform apply`
