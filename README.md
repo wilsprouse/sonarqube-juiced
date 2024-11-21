@@ -1,19 +1,20 @@
 # SonarQube Juiced
 
 ### Juiced?
-This project gives developers a "Juiced" start to development, if they are standing up SonarQube in AWS. Everything needed is here.
+This project gives developers a "Juiced" start to development. So, if you are standing up SonarQube in AWS, everything you need is here!
 
 ### Instructions
 
-0. These instructions assume you have terraform installed, have a basic understand of AWS, and an AWS account to work in.
+Prerequisites: These instructions assume you have terraform installed, have a basic understand of AWS and terraform, and an AWS account to work in.
 
-1. Go to AWS, and get your AWS CLI keys
-  - You may need to create a user in IAM, otherwise skip to "Create an access key..." (Step 4)
-  - Give it the necessary permissions
-  - Click the user you created
+1. Go to AWS, and get your AWS CLI keys (or generate them if you do not have them)
+  - You may need to create a user in IAM and give that user the necessary permissions
+  - Once you have a user, click into the user's summary (Just click the username)
   - Create an access key for this user (There should be a button on the screen to do this)
-  - AWS looks for a credentials file at the location `~/.aws/credentials`. You can update 
-    the sample_aws_credentials file in this repo, and move it to that location
+  - Copy the Access Key and Secret Key into your environment (most likely, your local machine)
+    - AWS looks for a `credentials` file at the location `~/.aws/` (so the full filepath is
+      `~/.aws/credentials`). You can update the sample_aws_credentials file in the root of this
+      repo, rename it to `credentials` and move it to that location
 2. Depending on how you want to store your state, you may need to update `src/backend.tf`. 
    By default, it is set up for local state storage.
 3. cd into src/ directory
