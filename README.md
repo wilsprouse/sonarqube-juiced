@@ -3,6 +3,8 @@ This repository contains all the necessary Terraform code to stand up a SonarQub
 
 Why Juiced? Because all the heavy lifting to stand up a SonarQube environment, is provided here. It's Juiced!
 
+Software should be clean, simple, and easy. Especially platform and infrastructure code that is needed for every project, good documentation, combined with quality code, and you can quickly have a <b>gold standard environment</b>, in minutes. On top of this, getting from zero, to Hello World in complicated software environments, is often overlooked for the challenge it can be. These are the thoughts behind "Juiced" repositories such as this one.
+
 ### Instructions
 
 Prerequisites: These instructions assume you have terraform installed, have a basic understand of AWS and terraform, and an AWS account to work in.
