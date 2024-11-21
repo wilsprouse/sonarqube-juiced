@@ -23,7 +23,7 @@ Prerequisites: These instructions assume you have terraform installed, have a ba
 5. run `$ terraform plan`
   - If this output is what you are expecting (ie, no errors, and the number of resources to be deployed looks correct), you are good to move on to the next step
 6. run `$ terraform apply`. This will take 5-10 minutes, and it will output the dns name for you to use to access SonarQube
-   \nNOTE: it may take sonarqube another few minutes to spin up, and you may need to add http:// to the front of the url. The default username and password for
+   <br>NOTE: it may take sonarqube another few minutes to spin up, and you may need to add http:// to the front of the url. The default username and password for
          sonarqube is always admin for both
 
 ### Costs
@@ -34,4 +34,4 @@ you need to write code again, just run `$ terraform apply`!
 
 ### Contributions
 Feel free to clone or fork the repository and contribute.
-or contact Wil Sprouse (wilsprouse@gmail.com)
+<br>Or contact Wil Sprouse (wilsprouse@gmail.com)
